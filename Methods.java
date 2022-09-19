@@ -12,7 +12,7 @@ public class Methods {
 
     }public static void welcomeUserByName(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Как вас зовут?");
+        System.out.println("Как вас зовут?)");
         String name = scanner.next();
         printCity();
         String city = scanner.next();
@@ -35,7 +35,7 @@ public class Methods {
         }else if(currentHour < 12){
             System.out.println("Доброе утро!");
         }else if(currentHour < 18){
-            System.out.println("Добрый день");
+            System.out.println("Добрый день"); // Добавлен коммент
         }else {
             System.out.println("Добрый вечер!");
         }
